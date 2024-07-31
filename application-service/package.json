@@ -1,0 +1,25 @@
+{
+  "name": "application-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.10",
+    "@hapi/inert": "^7.1.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3"
+  }
+}
